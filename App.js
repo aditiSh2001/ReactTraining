@@ -1,16 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-import Employee from './JobDetails';
-import Userslist from './List';
-import Array from './Array';
+
+import Login from './Login.js';
+import DeptArrayCrud from './DeptArrayCrud.js';
+import State from './Items.js';
+
+
 
 
 function App() {  
   return(
       <>
-         <Employee/>
-         <Userslist/>
-         <Array/>
+         <State/>
       
       </>
     );
